@@ -1,12 +1,21 @@
-.inline-block {
-    display: inline-block;
-    vertical-align: top;
+* {
+    font-family: 'Rubik', sans-serif;
+}
+
+.navigation {
+    padding: 10px;
+    display: flex;
 }
 
 .logo {
     width: 23%;
     padding: 1%;
     text-align: center;
+}
+
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
 }
 
 nav {
@@ -56,4 +65,8 @@ footer {
 
 .workGrid {
     display: grid;
+}
+
+@media only screen and (max-width: 600) {
+    
 }
